@@ -27,6 +27,7 @@ serv-and-info {
 ul,
 li {
     list-style-type: none;
+    padding-left: 0;
 }
 footer {
     background-color: #c5eee2;  
@@ -110,13 +111,17 @@ footer {
     .nav {
         margin-top: 3em;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .nav a {
         border-bottom-color: transparent;
     }
     }
 @media (min-width: 1025px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
     .main-header,
     .serv-and-info {
         flex-direction: row; 
