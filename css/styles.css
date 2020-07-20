@@ -7,18 +7,40 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+/*cosmotologist-col {
+    background-color: rgba(235, 126, 142, 0.692);
+}
+massage-col {
+    background-color: rgba(144, 238, 144, 0.637);
+}
+office-info-col {
+    background-color: rgba(255, 255, 0, 0.452);
+}*/
+serv-and-info {
+    background-color: rgba(255, 255, 0, 0.452);
+}
+
 ul,
 li {
     list-style-type: none;
 }
-
+footer {
+    background-color: #c5eee2;  
+}
+.footer {
+    margin-top: auto;
+}
 .container {
-    background-color: #c5eee2;
+    background-color: #c5eee2; /*parent blocking child bgnd color*/
 }
 
 .main-header,
-.nav {
+.nav,
+.serv-and-info {
     display: flex;
     flex-direction: column;
 }
@@ -35,17 +57,43 @@ li {
     
 }
 .nav a {
-    display: block; /*maybe out*/
+    display: block; 
     color: #797e83;
     font-size: 1.125em;
     font-weight: 300;
-    text-align: center; /*maybe out*/
+    text-align: center; 
     padding: .4em;
     border-bottom: 1px solid #ebecec;
 }
 .nav a:hover {
     color: #0b0b0b;
     border-bottom-color: #52bab3;
+}
+.serv-and-info {
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col {
+    display: flex;
+    flex: 1; /* -ms-flex bc Explorer 10 alternative see below*/
+    flex-direction: column; /*is this helping any*/
+}
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+}   
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    -ms-flex: 1;
+    flex: 1;
+    flex-basis: 200px;
+    align-items: center;
+}
+.item-1,
+.item-2 {
+    align-self: flex-end;
 }
 
 @media (min-width:769px) {
@@ -55,6 +103,7 @@ li {
     
         justify-content: flex-end;   
     }
+    
     .site-logo {
         width: 160px;
     }
@@ -68,12 +117,16 @@ li {
     }
     }
 @media (min-width: 1025px) {
-    .main-header {
-        flex-direction: row;
+    .main-header,
+    .serv-and-info {
+        flex-direction: row; 
+       
+
     }
     .site-logo {
         margin-right: auto;
         margin-left: auto;
+    
     }
     .nav {
         
@@ -87,4 +140,8 @@ li {
         margin-left: .65em;
         margin-right: .65em;
     }
+    cosmotologist-col {
+        flex: 2;
+    } /*is this helping any*/
+
 }
