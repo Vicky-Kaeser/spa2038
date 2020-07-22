@@ -96,6 +96,14 @@ footer {
 .item-2 {
     align-self: flex-end;
 }
+.item-2 {
+    order: 4;
+}
+/* IF .item-1 {
+    padding-left: 10px;
+}
+.item-4 at <1025 needs padding left,somehow*/
+
 
 @media (min-width:769px) {
     .main-header {
