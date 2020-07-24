@@ -6,6 +6,7 @@
     <title>Spa 2038</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <script type="text/javascript" src="js/script.js"> </script>
 </head>
 <body>
    
@@ -28,8 +29,9 @@
                 !3m6!1e1!3m4!1sV6Pz4_He4iBSD3ZYgXXu0w!2e0!7i16384!8i8192!4m5!3m4!
                 1s0x886973394b254fab:0xd78c7243561a184e!8m2!3d38.254112!4d-85.7091512">
                 2038 Frankfort Ave<br>Louisville, KY 40206</a></li>
-            <li><a href="#">(502) 494-3272 Ms. Cecil<br> (502) 303-1012 Ms. June</a></li>
-            <li><a href="#">More Details</a></li>
+            <li><a href="#m">(502) 494-3272 Ms. Cecil</a>
+                <a href="#k">(502) 303-1012 Ms. June</a></li>
+            <li><a href="#details">More Details</a></li>
         </ul>  
 
     </div>
@@ -51,7 +53,7 @@
 
 
     <div class="info-box"> 
-        <b>Cosmotologist, Ms. Michael Cecil</b>   
+        <b id="m">Cosmotologist, Ms. Michael Cecil</b>   
     <ul> 
         <li>Darmalogica Facials</li>
         <li>Lash Tinting</li>
@@ -66,7 +68,7 @@
 </div>
 
 <div class="info-box"> 
-    <b>Massage Therapist, Ms. Kathy June</b>
+    <b id="k">Massage Therapist, Ms. Kathy June</b>
 
 <ul> 
     <li>Massage</li>
@@ -78,8 +80,31 @@
 <b>Hours: 9 a.m. to 2 p.m., Tuesday to Friday<br> and every other Saturday 10 a.m. to 3 p.m.</b>
 </div>
 <div class="info-box"> 
-    <b>Office Information and Covid-19</b>
-    <p>Co-owners Ms. Michael Cecil and<br> Ms. Kathy Sisk June <br> have worked together since 1997</p>
+    <b id="details">Office Information and Covid-19</b>
+    <p>Ms. Michael Cecil and Ms. Kathy Sisk June <br>
+     are co-owners of Spa 2038 and have worked together since 1997.</p><br>
+    
+    <b> Accept Covid-19 Policy</b>
+    <br> Masks are mandatory during our sessions.
+    <br>Temperature checks will be perform upon entering the premises.
+    <br>Please text upon arrival and remain in your car until advised.         
+    <form name="SubmitForm" onsubmit="CovidPolicy()">  
+          
+        <p>Name: <input type="text" size=30 name="Name"> </p>         
+        <p>E-mail: <input type="text" size=30 name="EMail">  </p>
+        <p><input type="submit" value="Accept" name="Submit">      
+            <input type="reset" value="Reset" name="Reset">   
+        </p>          
+    </form>
+
+
+
+
+
+
+
+
+
 
 </div>
 </div>

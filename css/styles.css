@@ -32,6 +32,29 @@ body {
     flex: 1 0 450px;
     padding: 2rem;
 }
+/*CovidPolicy {
+    margin-left: 70px;
+    font-weight: bold;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+    font-family: sans-serif,bold, Arial, Helvetica;
+    font-size: 14px;
+}
+div {
+    box-sizing: border-box;
+    width: 100%;
+    border: 100px solid rgb(246, 229, 229);
+    float: left;
+    align-content: center;
+    align-content: center;
+}
+form {
+    margin: 0 auto;
+    width: 600px;
+}*/
 
 ul,
 li {
