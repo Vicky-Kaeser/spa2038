@@ -3,7 +3,6 @@
 }
 body {
     color: #1d1e1f;
-    background-color: light rgb(246, 176, 188);
     font-size: 16px;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,52 +11,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
-.serv-and-info {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1 0 450px; 
-    justify-content: space-around;
-   /* background-color:rgba(144, 238, 144, 0.637);*/
-}
-
-.serv-and-info > div{
-
-}
-
-.info-box {
-    border: 1px dotted rgb(241, 180, 156);
-    margin: .5rem;
-    background-color:rgba(144, 238, 144, 0.637);
-    flex: 1 0 450px;
-    padding: 2rem;
-}
-
-
-
-ul,
-li {
-    list-style-type: none;
-    padding-left: 0;
-}
-h1,
-h3 {
-    text-align: center;
-}
-
-footer {
-    background-color:rgba(255, 255, 0, 0.452); 
-}
-
-.footer {
-    margin-top: auto;
-}
-
-.nav {
-    display: flex;
-    flex-direction: column;
-}
+/*logo and navigation container*/
 .main-header{
     background-color: rgb(157, 191, 247);
     padding-bottom: 10px;
@@ -66,23 +20,19 @@ footer {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-
-
 }
+
 .header-logo-cont {
     padding-top: 20px;
     padding-left: 5px;
-
-}
-
-.header-nav-cont {
-
 }
 
 .nav {
     margin-top: 1.5em;
-    
+    display: flex;
+    flex-direction: column;
 }
+
 .nav a {
     display: block; 
     color: black;
@@ -90,19 +40,58 @@ footer {
     font-weight: 300;
     text-align: center; 
     text-decoration: none;
-
     padding: .4em;
     border-bottom: 1px solid #ebecec;
 }
+
 .nav a:hover {
     color: #0b0b0b;
     border-bottom-color: #52bab3;
 }
 
+ul,
+li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/*main content container*/
+h1,
+h3 {
+    text-align: center;
+}
+
+.serv-and-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 450px; 
+    justify-content: space-around;
+   }
+
+.info-box {
+    border: 1px dotted rgb(241, 180, 156);
+    margin: .5rem;
+    background-color:rgba(144, 238, 144, 0.637);
+    flex: 1 0 450px;
+    padding: 2rem;
+}/*.serv-and-info > div{} could also be use*/
+
+
+/*footer*/
+footer {
+    background-color:rgba(255, 255, 0, 0.452); 
+}
+
+.footer {
+    margin-top: auto;
+}
+
 .footer-nav {
     display: flex;
     flex-wrap: wrap;
-}   
+}
+
 .item-1,
 .item-2,
 .item-3,
@@ -120,6 +109,7 @@ footer {
     order: 4;
 }
 
+/*media query*/
 @media (min-width:760px) {
 
     .main-header{
