@@ -1,5 +1,14 @@
 # spa2038
 Website for spa 2038
+
+How to download this repo:
+Open Code deopdown box
+    Select Download ZIP - download to your local computer by extracting all files.
+Open files with Visual Studios or any other software development tool.
+Open <>index.html file and press Ctrl + O (on Windows) or, Cmd + O (on a Mac).
+Click the Chrome (image) index.html to view the Spa 2038's Website on your browser.
+
+
 Spa 2038's website is responsive to  different devices and browers' sizes. 
 Current and future clients are able to access Spa 2038's information on this comfortable and easy to read layout - flexbox was used through out the layout.
 The main content container reflects an html form with JavaScript, with two fields of information.
