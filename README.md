@@ -2,7 +2,7 @@
 Website for spa 2038
 
 How to download this repo:
-Open Code deopdown box
+Open Code dropdown box
     Select Download ZIP - download to your local computer by extracting all files.
 Open files with Visual Studios or any other software development tool.
 Open <>index.html file and press Ctrl + O (on Windows) or, Cmd + O (on a Mac).
