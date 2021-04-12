@@ -9,7 +9,7 @@ Open <>index.html file and press Ctrl + O (on Windows) or, Cmd + O (on a Mac).
 Click the Chrome (image) index.html to view the Spa 2038's Website on your browser.
 
 
-Spa 2038's website is responsive to  different devices and browers' sizes. 
+Spa 2038's website is responsive to  different devices and browsers' sizes. 
 Current and future clients are able to access Spa 2038's information on this comfortable and easy to read layout - flexbox was used through out the layout.
 The main content container reflects an html form with JavaScript, with two fields of information.
 In addition to the html form two more content areas are display with flexbox and media queries - to adjust to mobile and desktop layouts.
